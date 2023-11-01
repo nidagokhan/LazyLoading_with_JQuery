@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <title></title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="js/jquery.lazyload.js"></script>
 </head>
 <body>
@@ -29,8 +30,8 @@
     <script type="text/javascript" charset="utf-8">
         $(function () {
             $("img.lazy").lazyload({
-                event: "click",
-                AnimationEffect:"fadeIn"
+                threshold: 10,
+                effect:"fadeIn"
             });
         });
     </script>
