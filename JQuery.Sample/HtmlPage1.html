@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="js/jquery.lazyload.js"></script>
+</head>
+<body>
+    <img class="lazy " alt="İçecek" src="Image/bira.jpg" data-original="Image/bira.jpg" width="700" height="700" />
+    <br />
+    <br />
+    <img class="lazy " alt="İçecek" src="Image/Meyve Suyu.png" data-original="Image/Meyve Suyu.png" width="700" height="700" />
+    <br />
+    <br />
+    <img class="lazy " alt="İçecek" src="Image/Rum & Kola.jpg" data-original="Image/Rum & Kola.jpg" width="700" height="700" />
+    <br />
+    <br />
+    <img class="lazy " alt="İçecek" src="Image/Tekila.jpg" data-original="Image/Tekila.jpg" width="700" height="700" />
+    <br />
+    <br />
+    <img class="lazy " alt="İçecek" src="Image/Meyve Suyu.png" data-original="Image/Meyve Suyu.png" width="700" height="700" />
+    <br />
+    <br />
+    <img class="lazy " alt="İçecek" src="Image/Rum & Kola.jpg" data-original="Image/Rum & Kola.jpg" width="700" height="700" />
+    <br />
+    <br />
+    <img class="lazy " alt="İçecek" src="Image/Tekila.jpg" data-original="Image/Tekila.jpg" width="700" height="700" />
+
+    <script type="text/javascript" charset="utf-8">
+        $(function () {
+            $("img.lazy").lazyload({
+                event: "click",
+                AnimationEffect:"fadeIn"
+            });
+        });
+    </script>
+</body>
+</html>
+
